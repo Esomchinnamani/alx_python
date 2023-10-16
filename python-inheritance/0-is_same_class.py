@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+"""
+This module checks if an object is an instance of a class using isinstance
+"""
+def is_same_class(obj, a_class):
+    """
+    This function defines an object and a class
+    """
+    return type(obj) is a_class
